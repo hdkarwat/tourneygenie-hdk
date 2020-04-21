@@ -5,6 +5,12 @@
 h1 {
   color: cadetblue;
 }
+
+h3 {
+  color: cadetblue; 
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

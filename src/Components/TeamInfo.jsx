@@ -26,9 +26,9 @@ export class TeamInfo extends Component {
            <Table className="mt-4" stripped bordered hover size="sm">
                <thead>
                     <tr>
-                        <th>TournamentID</th>
-                        <th>TeamName</th>
-                        <th>TeamAgeGroup</th>
+                        <th>Tournament ID</th>
+                        <th>Team Name</th>
+                        <th>Team Age Group</th>
                     </tr>
                </thead>
 
