@@ -5,22 +5,20 @@ import './App.css';
 import {Home} from './Components/Home'
 import {TourneyInfo} from './Components/TourneyInfo'
 import {TeamInfo} from './Components/TeamInfo'
+import {Navigation} from './Components/Navigation'
 
-import Button from 'react-bootstrap/Button'
-
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {BrowserRouter, Route, Switch, NavLink} from 'react-router-dom'
 function App() {
   return (
 
     <BrowserRouter>
     <div className="container"> 
-    <Button variant='primary'> Bootstrap Button</Button>
+  
+    <h1 className="m-3 d-flex justify-content-center"> Tourney Genie</h1>
 
-    <h3 className="m-3 d-flex justify-content-center"> Tourney Genie</h3>
+    <p className="m-3 d-flex justify-content-center"> The application that every softball and baseball tournament director needs to run a smooth tournament weekend.</p>
 
-    <h5 className="m-3 d-flex justify-content-center"> Pocket Tournament Director </h5>
-
-
+    <Navigation/> 
 
     <Switch>
       <Route path='/' component={Home} exact/>
