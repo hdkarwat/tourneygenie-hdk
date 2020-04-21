@@ -16,7 +16,7 @@ function App() {
   
     <h1 className="m-3 d-flex justify-content-center"> Tourney Genie</h1>
 
-    <p className="m-3 d-flex justify-content-center"> The application that every softball and baseball tournament director needs to run a smooth tournament weekend.</p>
+    <p className="m-3 d-flex justify-content-center"> The Pocket Tournament Director</p>
 
     <Navigation/> 
 
