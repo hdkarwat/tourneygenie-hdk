@@ -4,3 +4,12 @@ h2 {
     text-align: center;
 
 }
+
+.description {
+    text-align: left;
+}
+
+.description em {
+    color: cadetblue; 
+    text-align: center;
+}
