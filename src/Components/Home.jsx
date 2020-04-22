@@ -10,7 +10,7 @@ export class Home extends Component {
             <div>
                 <h2>Welcome to Tourney Genie</h2>
                 <p className="description"> The application that every softball and baseball tournament director needs to run a smooth tournament weekend.
-                No need to keep worrying about keeping track of endless amonts of paper
+                There is no longer a need to always carry around your paper copy, because 
                 <em> The Tourney Genie</em> will be there to keep everything you need in one simple place.</p>
              
                 <p><img src="softballfieldImage.jpg" alt="Home" height="auto" width="100%"></img></p>

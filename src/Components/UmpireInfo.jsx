@@ -14,8 +14,10 @@ export class UmpireInfo extends Component {
     }
     refreshList() {
         this.setState({
-            umpires:[{"UmpireID":1, "UmpireName": "Jim Kook", "WorkingField": "1", "NumberOfGames": "21", "PhoneContact": "(989) 529-3545", "EmailContact": "jimkook@gmail.com"}, 
-            {"UmpireID":2, "UmpireName": "Jospeh Lee", "WorkingField": "1", "NumberOfGames": "18", "PhoneContact": "(810) 239-1445", "EmailContact": "josephlee@gmail.com"}
+            umpires:[{"TournamentID":1, "UmpireName": "Jim Kook", "WorkingField": "1", "NumberOfGames": "21", "PhoneContact": "(989) 529-3545", "EmailContact": "jimkook@gmail.com"}, 
+            {"TournamentID":1, "UmpireName": "Jospeh Lee", "WorkingField": "1", "NumberOfGames": "18", "PhoneContact": "(810) 239-1445", "EmailContact": "josephlee@gmail.com"},
+            {"TournamentID":2, "UmpireName": "Matt Karwat", "WorkingField": "2", "NumberOfGames": "21", "PhoneContact": "(989) 239-1572", "EmailContact": "matt.karwat@gmail.com"},
+            {"TournamentID":2, "UmpireName": "Noah Bowers", "WorkingField": "2", "NumberOfGames": "9", "PhoneContact": "(616) 727-7729", "EmailContact": "noahbowers@gmail.com"}
             
         ]
         })
@@ -31,7 +33,7 @@ export class UmpireInfo extends Component {
            <Table className="mt-4" stripped bordered hover size="sm">
                <thead>
                     <tr>
-                        <th>Umpire ID</th>
+                        <th>Tournament ID</th>
                         <th>Umpire Name</th>
                         <th>Working Field</th>
                         <th>Number of Games</th>
@@ -42,8 +44,8 @@ export class UmpireInfo extends Component {
 
                <tbody>
                    {umpires.map(umpire=> 
-                        <tr key = {umpire.UmpireID}> 
-                            <td>{umpire.UmpireID}</td>
+                        <tr key = {umpire.TournamentID}> 
+                            <td>{umpire.TournamentID}</td>
                             <td>{umpire.UmpireName}</td>
                             <td>{umpire.WorkingField}</td>
                             <td>{umpire.NumberOfGames}</td>
