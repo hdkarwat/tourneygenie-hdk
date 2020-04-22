@@ -11,6 +11,7 @@ export class Navigation extends Component{
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
             <NavLink className="d-inline p-2 bg-dark text-white" to="/">Home</NavLink>
+            <NavLink className="d-inline p-2 bg-dark text-white" to="/Login">Login</NavLink>
             <NavLink className="d-inline p-2 bg-dark text-white" to="/TourneyInfo"> Tournment Info</NavLink>
             <NavLink className="d-inline p-2 bg-dark text-white" to="/TeamInfo">Team Info</NavLink>
             <NavLink className="d-inline p-2 bg-dark text-white" to="/UmpireInfo">Umpire Info</NavLink>

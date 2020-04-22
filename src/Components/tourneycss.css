@@ -30,3 +30,7 @@ h2 {
     clear: both;
     display: table;
   }
+
+  .loginscreen {
+        text-align: center;
+  }
